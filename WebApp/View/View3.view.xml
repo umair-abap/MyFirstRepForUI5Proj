@@ -1,0 +1,20 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.ui.layout.form"
+          xmlns:core="sap.ui.core" controllerName="tv.sd.abap.Controller.View3"
+>
+    <Page title="View3" showNavButton="true" navButtonPress="onBack">
+        <content>
+            <f:SimpleForm id="idSimpleForm">
+                <Label text="Name"/>
+                <Text text="{name}"/>
+                <Label text="City"/>
+                <Text text="{city}"/>
+                <Label text="Contact"/>
+                <Text text="{contactNo}"/>
+                <Label text="Since When"/>
+                <Text text="{sinceWhen}"/>
+            </f:SimpleForm>      
+            <core:Fragment fragmentName="tv.sd.abap.Fragments.vizframe" type="XML"/>                 
+        </content>
+    </Page>
+</mvc:View>
+

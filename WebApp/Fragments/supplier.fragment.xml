@@ -1,0 +1,48 @@
+<mvc:FragmentDefinition xmlns:mvc="sap.ui.core" xmlns="sap.m">
+                    <Table id="idTable" items="{/SupplierSet}" itemPress="onItemPress" >
+                        <headerToolbar>
+                            <Toolbar>
+                                <ToolbarSpacer/>
+                                <Button tooltip="Supplier Filter"
+                                        icon="sap-icon://filter"
+                                        press="onFilter"
+                                />
+                            </Toolbar>
+                        </headerToolbar>
+                        <columns>
+                            <Column>
+                                <header>
+                                    <Label text="Number"/>
+                                </header>
+                            </Column>
+                            <Column>
+                                <header>
+                                    <Label text="Name"/>
+                                </header>
+                            </Column>
+                            <Column>
+                                <header>
+                                    <Label text="City"/>
+                                </header>
+                            </Column>
+                            <Column>
+                                <header>
+                                    <Label text="Contact"/>
+                                </header>
+                            </Column>
+                        </columns>
+                        <items >
+                            <ColumnListItem type="Navigation">
+                                <cells>
+                                    <Text text="{Kunnr}"/>
+                                    <Text text="{Name1}"/>
+                                    <Input value="{Ort01}"
+                                           showValueHelp="true"
+                                           valueHelpRequest="onF4Help"
+                                    />
+                                    <Text text="{Telf1}"/>
+                                </cells>
+                            </ColumnListItem>
+                        </items>
+                    </Table>    
+</mvc:FragmentDefinition>

@@ -1,0 +1,166 @@
+{
+    "fruits":[
+        {
+            "name"          :"Banana",
+            "color"         :"Yellow",
+            "price"         :"50",
+            "curr"          :"INR",
+            "image"         :"https://cdn-icons-png.flaticon.com/512/6482/6482627.png",
+            "healthBenifits":"Restores the Energy Instantly",
+            "availability"  :"A"
+        },
+        {
+            "name"          :"Apple",
+            "color"         :"Red",
+            "price"         :"100",
+            "curr"          :"INR",
+            "image"         :"https://www.iconpacks.net/icons/2/free-apple-icon-3155-thumb.png",
+            "healthBenifits":"Good For Health",
+            "availability"  :"D"
+        },
+        {
+            "name"          :"PineApple",
+            "color"         :"Orange",
+            "price"         :"5",
+            "curr"          :"INR",
+            "image"         :"https://cdn-icons-png.flaticon.com/512/3366/3366515.png",
+            "healthBenifits":"Good For Health",
+            "availability"  :"O"
+        },
+        {
+            "name"          :"Orange",
+            "color"         :"Orange",
+            "price"         :"70",
+            "curr"          :"INR",
+            "image"         :"https://cdn-icons-png.flaticon.com/512/721/721098.png",
+            "healthBenifits":"Good For Health",
+            "availability"  :"O"
+        },
+        {
+            "name"          :"Banana",
+            "color"         :"Yellow",
+            "price"         :"50",
+            "curr"          :"INR",
+            "image"         :"https://cdn-icons-png.flaticon.com/512/6482/6482627.png",
+            "healthBenifits":"Restores the Energy Instantly",
+            "availability"  :"A"
+        },
+        {
+            "name"          :"Apple",
+            "color"         :"Red",
+            "price"         :"100",
+            "curr"          :"INR",
+            "image"         :"https://www.iconpacks.net/icons/2/free-apple-icon-3155-thumb.png",
+            "healthBenifits":"Good For Health",
+            "availability"  :"D"
+        },
+        {
+            "name"          :"PineApple",
+            "color"         :"Orange",
+            "price"         :"5",
+            "curr"          :"INR",
+            "image"         :"https://cdn-icons-png.flaticon.com/512/3366/3366515.png",
+            "healthBenifits":"Good For Health",
+            "availability"  :"O"
+        },
+        {
+            "name"          :"Orange",
+            "color"         :"Orange",
+            "price"         :"70",
+            "curr"          :"INR",
+            "image"         :"https://cdn-icons-png.flaticon.com/512/721/721098.png",
+            "healthBenifits":"Good For Health",
+            "availability"  :"O"
+        }        
+    ],
+    "supplier":[        
+        {
+            "name":"Faisal Fruit's",
+            "sinceWhen":"1992",
+            "city":"Akola",
+            "specialty":[{"name":"banana",   "supply":50},
+                      {"name":"apple",    "supply":30},
+                      {"name":"pineapple","supply":20}
+                     ],
+            "contactNo":"9765301244",
+            "contactName":"Faisal Malik"
+        },
+        {
+            "name":"Rehan Fruit's",
+            "sinceWhen":"1948",
+            "city":"Aklola",
+            "specialty":[{"name":"mango",      "supply":30},
+                      {"name":"watermelon", "supply":40},
+                      {"name":"litchi",     "supply":50}
+                     ],
+            "contactNo":"9678654423",
+            "contactName":"Rehan Rabbani"
+        },
+        {
+            "name":"Faizan Fruit's",
+            "sinceWhen":"2002",
+            "city":"BashiTakli",
+            "specialty":[{"name":"grapes", "supply":60},
+                      {"name":"apple",  "supply":35},
+                      {"name":"banana", "supply":50}
+                     ],
+            "contactNo":"988225434",
+            "contactName":"Faizan Khan"
+        },
+        {
+            "name":"Zareef Fruit's",
+            "sinceWhen":"2002",
+            "city":"BashiTakli",
+            "specialty":[{"name":"mango",  "supply":50},
+                      {"name":"apple",  "supply":30},
+                      {"name":"litchi", "supply":20}
+                     ],
+            "contactNo":"7854232321",
+            "contactName":"Zareef Khan"
+        }
+    ],
+    "cities":[
+        {
+            "name":"BarshiTakli",
+            "state":"Maharashtra",
+            "population":"50000",
+            "famousFor":"Cotton"
+        },
+        {
+            "name":"Mumbai",
+            "state":"Maharashtra",
+            "population":"150000",
+            "famousFor":"Vada Pav"
+        },
+        {
+            "name":"Hyderabad",
+            "state":"Telangana",
+            "population":"160000",
+            "famousFor":"Technologies"
+        },
+        {
+            "name":"Nagpur",
+            "state":"Maharashtra",
+            "population":"90000",
+            "famousFor":"Orange"
+        }
+    ],
+    "status":[
+        {
+            "key":"A",
+            "value":"Available"
+        },
+        {
+            "key":"D",
+            "value":"Disconnected"
+        },
+        {
+            "key":"O",
+            "value":"Out of Stock"
+        },
+        {
+            "key":"P",
+            "value":"Paid"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+<mvc:FragmentDefinition xmlns:mvc="sap.ui.core" xmlns="sap.m" 
+ xmlns:f="sap.ui.layout.form"
+>
+    <f:SimpleForm id="idMoreInfoSimpleForm">
+        <f:content>
+            <mvc:Title text="Delivery Details"/>            
+            <Label text="Name"/>
+            <Text text="{Ernam}"/>
+            <Label text="Price"/>
+            <Text text="{Netwr}"/>
+
+            <mvc:Title text="Supplier Details"/>
+            <Label text="Id"/>
+            <Text text="{/To_Supplier/Kunnr}"/>
+            <Label text="Name"/>
+            <Text text="{To_Supplier/Name1}"/>
+            <Label text="City"/>
+            <Text text="{To_Supplier/Ort01}"/>
+            <Label text="Code"/>
+            <Text text="{To_Supplier/Pstlz}"/>
+            <Label text="Contact"/>
+            <Text text="{To_Supplier/Telf1}"/>
+        </f:content>
+    </f:SimpleForm>
+</mvc:FragmentDefinition>

@@ -1,0 +1,8 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+    <Page title="Empty View">
+        <Image src="https://wallpapers.com/images/hd/s-a-p-logo-blueand-black-background-ow6jp4i1oy8odf64.png"
+               width="100%"
+               height="100%"     
+        />
+    </Page>
+</mvc:View>

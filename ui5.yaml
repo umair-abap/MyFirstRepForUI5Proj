@@ -1,0 +1,12 @@
+specVersion: "4.0"
+metadata:
+  name: d-27-dynamic-fragments
+type: application
+server:
+  customMiddleware:
+  - name: fiori-tools-proxy
+    afterMiddleware: compression
+    configuration:
+      backend:
+      - path: /sap
+        url: http://ksa-sap-rnd.ksa.hsagroup.com:8000/

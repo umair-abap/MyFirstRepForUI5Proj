@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <script
+        src="https://ui5.sap.com/resources/sap-ui-core.js"
+        data-sap-ui-libs="sap.m"
+        data-sap-ui-theme = "sap_horizon"
+        data-sap-ui-resourceroots='{"tv.sd.abap":"./"}'
+        data-sap-ui-compatVersion="edge"
+        >
+        </script>
+            
+        <script>
+            var oCompContainer = new sap.ui.core.ComponentContainer({
+                "name":"tv.sd.abap"
+            });
+            oCompContainer.placeAt("content");
+        </script>
+    </head>
+    <body class="sapUiBody">
+        <div id="content">
+        </div>
+    </body>
+</html>

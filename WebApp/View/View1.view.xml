@@ -1,0 +1,51 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+ controllerName="tv.sd.abap.Controller.View1"
+>
+    <Page title="View 1">
+        <content>
+            <SearchField id="idSearchField" search="onSearch"/>
+            <List id="idList" items="{/DeliveryHeaderSet}" selectionChange="onItemPress" 
+                  mode="SingleSelectMaster" delete="onDelete"
+                  growingThreshold="10"
+                  growing="true"
+            >
+                <headerToolbar>
+                    <Toolbar>
+                        <ToolbarSpacer/>
+                        <Button icon="sap-icon://delete" press="onMultiDelete"/>
+                    </Toolbar>                    
+                </headerToolbar>
+                <items>
+                    <ObjectListItem
+                        type="Navigation"
+                        title="{Vbeln}"
+                        intro="{Ernam}"
+                        number="{Netwr}"
+                        numberUnit="{Waerk}"
+                        icon="{Vgbel}">
+
+                        <firstStatus>
+                            <ObjectStatus
+                                text="{
+                                    path:'availability',
+                                    formatter:'.formatter.getStatus'
+                                }"
+                                state="{
+                                    path     :'availability',
+                                    formatter:'.formatter.getState'
+                                }"
+                            >
+                            </ObjectStatus>
+                        </firstStatus>
+                    </ObjectListItem>
+                </items>
+            </List>
+        </content>
+        <footer>
+            <Toolbar>
+                <ToolbarSpacer/>
+                <Button icon="sap-icon://add" press="onAdd"/>
+            </Toolbar>
+        </footer>
+    </Page>
+</mvc:View>

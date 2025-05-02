@@ -6,6 +6,7 @@ sap.ui.define(["tv/sd/abap/Controller/BaseController",
 ],
     function (BaseController, JSONModel, MessageBox, MessageToast, Fragment) {
         return BaseController.extend("tv.sd.abap.Controller.Add", {
+            oNew1: null,
             oRouter: null,
             oLocalModel: null,
             onInit: function () {

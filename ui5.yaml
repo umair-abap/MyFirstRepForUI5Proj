@@ -1,6 +1,6 @@
 specVersion: "4.0"
 metadata:
-  name: d-27-dynamic-fragments
+  name: myfirstrepforui5proj
 type: application
 server:
   customMiddleware:
@@ -9,4 +9,5 @@ server:
     configuration:
       backend:
       - path: /sap
+        destination: S4HANA_New
         url: http://ksa-sap-rnd.ksa.hsagroup.com:8000/

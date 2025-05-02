@@ -1,6 +1,6 @@
 specVersion: "4.0"
 metadata:
-  name: myfirstrepforui5proj
+  name: d-37-git
 type: application
 server:
   customMiddleware:
@@ -9,5 +9,4 @@ server:
     configuration:
       backend:
       - path: /sap
-        destination: S4HANA_New
         url: http://ksa-sap-rnd.ksa.hsagroup.com:8000/
